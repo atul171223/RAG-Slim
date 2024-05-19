@@ -9,3 +9,20 @@
 - Specialized decoder-based LLMs, fine-tuned for function calling
 - Fast and efficient inference
 - Parallelizable for multi-model concurrent deployment on CPUs
+
+
+## Getting Started
+
+1. Obtain a valid subscription key and service region for Microsoft Azure Speech Service.
+2. Clone the repository using:
+   ```bash
+   https://github.com/atul171223/RAG-Slim.git
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Streamlit application and interact with it via the user-friendly web interface using the command:
+   ```bash
+   streamlit run app.py
+   ```
